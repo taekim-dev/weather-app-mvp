@@ -16,4 +16,13 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     langDir: 'locales/',
   },
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+
+  css: ['~/assets/css/main.css']
 })

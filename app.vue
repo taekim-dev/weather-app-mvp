@@ -3,7 +3,7 @@
     <p>Greeting</p>
     <p>{{ $t("greeting") }}</p>
     <p>{{ greeting }}</p>
-    <NuxtWelcome />
+    <InputForm />
   </div>
 </template>
 <script>
